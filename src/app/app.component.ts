@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Mat';
+
+  isChecked = false;
+
+  onChange($event)
+  {
+    console.log($event)
+  }
 }
